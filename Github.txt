@@ -1,0 +1,38 @@
+   56  history
+   57  sudo apt-get install git-core
+   58  git --version
+   59  mkdir newgitfolder
+   60  cd newgitfolder
+   61  git config --global user.name "yuvrajawalekar"
+   62  git config --global user.email "yuvrajawalekar@gmail.com"
+   74  git config --global color.ui true
+   75  git config --global color.status auto
+   76  git config --global color.branch auto
+   78  git config --list
+   82  ls
+   83  nano testFile1.txt
+   84  nano testFile2.txt
+   85  git status
+   91  git init
+   92  ls
+   93  git status
+   94  git add testFile1.txt
+   95  git add testFile2.txt
+   96  git status
+   98  git commit -m "Commiting to the gitHUB"       /* Message is compulsory for commit */
+   99  git status
+  109  git remote add origin https://github.com/yuvrajawalekar/GitFinal.git
+  110  git pull origin master
+  111  git push https://github.com/yuvrajawalekar/GitFinal.git
+  112  git branch
+  113  git branch extrabranch
+  115  git checkout extrabranch
+  116  git branch
+  117  ls
+  118  nano insidebranch.txt
+  119  ls
+  120  git add insidebranch.txt
+  121  git commit -m "insideNewBranc"
+  122  git push https://github.com/yuvrajawalekar/GitFinal.git
+  123  git merge extrabranch
+  124  history
